@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 5px 10px;
+   
+}
+
+.fira_sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+/* Navigation */
+.nav_btn:hover{
+    background-color: #fb0626;
+}
+
+.bold{
+    color: #181818;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-weight: 600px;
+}
+nav button{
+    color: #006A50;
+    border-radius: 5px;
+    border:1px solid #006A50;
+    margin-right: 25px;
+}
+/* style main section */
+
+.banner_section{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    margin: 40px;
+}
+.bannerdiv{
+    display: flex;
+    text-align: left;
+}
+.btn{
+    background-color: #006A50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;    
+}
+.banner_section1{
+    margin: 117px auto;
+}
+.banner_section_description{
+    font-size: 50px;
+    font-weight: bolder;
+  
+}
+.banner_section_2{
+    align-items: center;
+    margin: 80px auto;
+}
+
+/* The Vision of Future */
+.future_section{
+    margin-top: 40px ;  
+}
+.future_section-title{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.vison{
+    display: flex;
+    gap: 20px;
+}
+.vison_1{
+    border-radius: 10px;
+    background-color: #548ff536;
+    padding-bottom: 32px;
+}
+.vison2{
+    border-radius: 10px;
+    background-color: #c6e4d669;
+    padding-bottom: 32px;
+}
+.vison3{
+    border-radius: 10px;
+    background-color: #ffc4395e;
+    padding-bottom: 32px;
+}
+.btn1{
+    background-color: #548ff5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px; 
+    margin-top: 15px; 
+    color: white; 
+}
+.btn2{
+    background-color: #a6cebb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;  
+    margin-top: 15px; 
+    color: white; 
+}
+.btn3{
+    background-color: #ffc439;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;   
+    margin-top: 15px;
+    color: white; 
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn:hover{
+    background-color: rgba(5, 255, 34, 0.719);
+    color: rgb(9, 32, 9);
+}
+.yunus{
+    background-color: rgb(230, 217, 201);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 15px;
+   
+}
+
+.news{
+    margin: 30px auto;
+}
+
+.news_satelite_div{
+    display: flex;
+    background-color: rgb(230, 207, 207);
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+.news_small_div{
+    display: flex;
+    margin-left: -16px;
+   
+}
+.news_img{
+    border-radius: 50px;
+    margin: 20px auto;
+}
+.padding_text{
+    padding: 30px;
+}
+
+/* donate_bangladesh section style */
+.donate_bangladesh-title{
+    font-size: 35px;
+}
+.amount{
+    background-color:  rgba(136, 109, 109, 0.219);
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.amount:hover{
+    background-color:#C6E4D6;
+    color: white;
+}
+.amount2{
+    background-color: #C6E4D6 ;
+}
+.donate_bangladesh
+{
+    text-align: center;
+    
+}
+.amounts{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 20px 100px;
+
+ 
+}
+.input_taka{
+    margin: 20px auto;
+   width: 80%;
+   height: 50px;
+   background-color:  rgba(221, 180, 180, 0.267) ;
+   border: none;
+   text-align: center;
+
+   
+}
+.input_taka:hover{
+    background-color: rgb(221, 180, 180) ;
+    color: white;
+}
+.btn4{
+    background-color: #006A50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;   
+    margin-top: 15px;
+    color: white; 
+}
+.btn4:hover{
+    background-color: #548ff5;
+    color: white;
+}
+
+
+
+.newsletter{
+    background-color: rgb(198, 228, 214);
+    margin: 30px;
+    border-radius: 20px;
+   
+}
+.newsletter_parent{
+    text-align: center;
+    margin: 80px auto;
+}
+.newsletter-title{
+    font-size: 30px;
+}
+.newsletter_input{
+    width: 600px;
+    height: 40px;
+    border-radius: 8px 0px 0px 8px;
+    background-color:  rgba(255, 255, 255, 0.089);
+    margin: 0px 0px;
+
+}
+.newsletter_input:hover{
+    background-color:  rgba(24, 23, 23, 0.089);
+    background: rgb(230, 192, 192);
+}
+.btn5{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white; 
+    width: 100px;
+    height: 56px;
+    border: none;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.btn5:hover{
+    background-color: #548ff5;
+    color: white;
+}
+.style{
+   margin-top: 40px;
+}
+
+
+/* footer style */
+.footer_section{
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.521);
+    border-radius: 15px;
+}
